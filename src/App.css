@@ -65,7 +65,12 @@ nav ul {
 }
 
 .header-icons img {
+  max-width: 30px;
+  max-height: 30px;
+
   margin-left: 56px;
+
+  cursor: pointer;
 }
 
 .header-line {
@@ -76,5 +81,144 @@ nav ul {
 /* header */
 
 /* slider */
+.slider-container {
+  margin: 186px 250px 0 250px;
+}
 
+.slider {
+  position: relative;
+}
+
+.slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  background-color: #FAFAFA;
+
+  border-radius: 20px;
+}
+
+.slide-body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slide-body h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 31px;
+
+  color: #171718;
+
+  margin: 0 0 14px 0;
+}
+
+.slide-body p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #171718;
+
+  margin: 0 0 14px 0;
+}
+
+.slide-body button {
+  padding: 14px 35px;
+
+  border: none;
+  outline: none;
+  background: #5C62EC;
+  border-radius: 8px;
+
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #FAFAFA;
+
+  cursor: pointer;
+}
+
+.slide img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.slider-arrow {
+  --size: 38px;
+
+  position: absolute;
+  top: calc(50% - 19px);
+  bottom: 0;
+  right: -19px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: var(--size);
+  height: var(--size);
+
+  border-radius: 50%;
+
+  background-color: #FAFAFA;
+
+  cursor: pointer;
+}
 /* slider */
+
+/* categories */
+.categories-container {
+  margin: 100px 216px 0 216px;
+
+  text-align: center;
+}
+
+.categories-container h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: uppercase;
+
+  color: #5C62EC;
+
+  margin: 0 0 74px 0;
+}
+
+.categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 81px;
+}
+
+.categories-card {
+  max-width: 442px;
+  max-height: 501px;
+
+  padding: 62px 24px 62px 24px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+
+  cursor: pointer;
+}
+
+.categories-card img {
+  width: 100%;
+}
+
+.categories-card h3 {
+  margin-top: 93px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+
+  color: #171718;
+}
+/* categories */
