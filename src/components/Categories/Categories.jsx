@@ -1,4 +1,9 @@
 import sneakers from "../../assets/sneakers.png";
+import shirt from "../../assets/shirt.png";
+import cap from "../../assets/cap.png";
+import jeans from "../../assets/jeans.png";
+import sweatshirt from "../../assets/sweatshirt.png";
+import jackets from "../../assets/jackets.png";
 
 const Categories = () => {
     return (
@@ -15,28 +20,28 @@ const Categories = () => {
                 </div>
 
                 <div className="categories-card">
-                    <img src={sneakers} alt="sneakers" />
-                    <h3>Кроссовки</h3>
+                    <img src={shirt} alt="shirt" />
+                    <h3>Футболки</h3>
                 </div>
 
                 <div className="categories-card">
-                    <img src={sneakers} alt="sneakers" />
-                    <h3>Кроссовки</h3>
+                    <img src={cap} alt="cap" />
+                    <h3>Бейсболки</h3>
                 </div>
 
                 <div className="categories-card">
-                    <img src={sneakers} alt="sneakers" />
-                    <h3>Кроссовки</h3>
+                    <img src={jeans} alt="jeans" />
+                    <h3>Джинсы</h3>
                 </div>
 
                 <div className="categories-card">
-                    <img src={sneakers} alt="sneakers" />
-                    <h3>Кроссовки</h3>
+                    <img src={sweatshirt} alt="sweatshirt" />
+                    <h3>Свитшоты</h3>
                 </div>
 
                 <div className="categories-card">
-                    <img src={sneakers} alt="sneakers" />
-                    <h3>Кроссовки</h3>
+                    <img src={jackets} alt="jackets" />
+                    <h3>Куртки</h3>
                 </div>
 
             </div>
