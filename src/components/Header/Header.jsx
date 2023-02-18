@@ -18,8 +18,8 @@ const Header = () => {
                         <nav>
 
                         <ul>
-                            <li><a href="/">Товары</a></li>
-                            <li><a href="/">Информация</a></li>
+                            <li><a href="#">Товары</a></li>
+                            <li><a href="#">Информация</a></li>
                         </ul>
 
                         <div className="header-icons">
