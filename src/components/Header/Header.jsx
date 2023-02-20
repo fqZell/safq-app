@@ -1,7 +1,8 @@
+ import { NavLink } from "react-router-dom";
+
 import logo from "../../assets/allLogo.png";
 import basket from "../../assets/basket.svg";
 import account from "../../assets/account.svg";
-import Slide from "../Slider/Slide";
 
 const Header = () => {
     return (
@@ -11,14 +12,16 @@ const Header = () => {
 
 
                         <div className="header-logo">
-                            <img src={logo} alt="logo" />
-                            <h1>SAFQ</h1>
+                            <NavLink to="/">
+                                <img src={logo} alt="logo" />
+                                <h1>SAFQ</h1>
+                            </NavLink>
                         </div>
 
                         <nav>
 
                         <ul>
-                            <li><a href="#">Товары</a></li>
+                            <NavLink to="/product" activeClassname="active">Товары</NavLink>
                             <li><a href="#">Информация</a></li>
                         </ul>
 
@@ -34,7 +37,6 @@ const Header = () => {
 
                 <div className="header-line"></div>
 
-                <Slide />
             </header>
         </>
     )
