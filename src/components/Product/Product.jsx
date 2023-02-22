@@ -1,5 +1,4 @@
-import product_1 from "../../assets/product-1.png";
-
+import cartBasket from "../../assets/basketProduct.svg";
 
 const Product = ({ product }) => {
     return (
@@ -10,7 +9,10 @@ const Product = ({ product }) => {
                 <div className="cart-title">
                     <p>{product.title}</p>
 
-                    <h4>Цена: {product.price}</h4>
+                    <div className="cart-total">
+                        Цена: {product.price}
+                        <button><img src={cartBasket} alt="basket" /></button>
+                    </div>
                 </div>
             </div>
         </>
