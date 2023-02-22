@@ -1,11 +1,11 @@
 import Form from "../components/Form/Form";
 import Categories from "../components/Categories/Categories";
-import Slide from "../components/Slider/Slide";
+import Slider from "../components/Slider/Slider";
 
 const HomePage = () => {
   return (
     <>
-      <Slide />
+      <Slider />
       <Categories />
       <Form />
     </>

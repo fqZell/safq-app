@@ -134,7 +134,7 @@
     margin: 0 0 14px 0;
   }
   
-  .slide-body button {
+  .slide-body .button {
     padding: 14px 35px;
   
     border: none;
@@ -173,6 +173,8 @@
     border-radius: 50%;
   
     background-color: #FAFAFA;
+
+    border: none;
   
     cursor: pointer;
   }
