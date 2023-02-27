@@ -104,7 +104,7 @@
   
     width: 100%;
   
-    background-color: #FAFAFA;
+    background-color: #ffffff;
   
     border-radius: 20px;
   }
@@ -131,11 +131,12 @@
   
     color: #171718;
   
-    margin: 0 0 14px 0;
+    padding: 0 0 26px 0;
   }
   
   .slide-body .button {
     padding: 14px 35px;
+    margin-top: 10px;
   
     border: none;
     outline: none;
@@ -153,6 +154,7 @@
   .slide img {
     width: 50%;
     object-fit: cover;
+    border-radius: 0 16px 16px 0;
   }
   
   .slider-arrow {
@@ -511,6 +513,7 @@
   .cart-total {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 
     padding-top: 25px;
@@ -527,8 +530,14 @@
     background: none;
   }
 
+  .cart-total button {
+    width: 100px;
+  }
+
   .cart-total button img {
     background-color: #171718;
+
+    cursor: pointer;
   }
 
   .active {
